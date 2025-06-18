@@ -1,13 +1,12 @@
 import React from 'react'
 
 const NewsletterBox = () => {
-
-    const onSubmitHandler=(event)=>{
-      event.preventDefault();
+    const onSubmitHandler = ()=>{
+        event.preventDefault();
     }
 
-    return (
-        <div className='text-center'>
+  return (
+    <div className='text-center'>
         <p className='text-2xl font-medium text-gray-800'>Subscribe now & get 20% off</p>
         <p className='text-gray-400 mt-3'>
         Subscribe now and enjoy 20% off your first order! Stay updated with the latest trends, exclusive deals, and special offers.<br></br> Don’t miss out—join our fashion community today!
@@ -17,7 +16,7 @@ const NewsletterBox = () => {
             <button tpye="Submit" className='bg-black text-white text-xs px-10 py-4'>SUBSCRIBE</button>
         </form>
     </div>
-    )
+  )
 }
 
 export default NewsletterBox
