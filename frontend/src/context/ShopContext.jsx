@@ -48,6 +48,7 @@ const ShopContextProvider = (props) => {
                 toast.error(error.message);
             }
         }
+        
     }
 
     const getCartCount = ()=>{
